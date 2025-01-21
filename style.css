@@ -271,6 +271,7 @@ header .header__nav ul li:hover a {
 
 
 
+
  /* srvc */
 .srvc{
   background: #2b2b2b;
@@ -492,7 +493,7 @@ background:#ffa700;
   margin-bottom: 4rem;
 }
 .free .free__wrapper a{
-  color: #ffffff;
+  
   background-color: #2b2b2b;
   max-width: 200px;
   padding: 1.5rem 2rem;
@@ -515,6 +516,228 @@ background:#ffa700;
   }
 }
 
+/* banner5 */
+.banner5{
+  padding-top: 13rem;
+  padding-bottom: 5rem;
+  background: #ffffff;
+}
+.banner5 .banner5__wrapper{
+  display: grid;
+  grid-template-columns:1fr 1fr;
+  align-items: center;
+  gap: 5rem;
+}
+.banner5 .banner5__text h1 {
+  font-size:10rem;
+  font-weight: 800;
+  color: #ffa700;
+  line-height: 1;
+}
+.banner5 .banner5__text p{
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  text-align: justify;
+}
+/* .banner5 .banner5__wrapper ul li a {
+  color: #ffa700;
+  font-size: 2rem; */
+
+  
+  
+
+  
+/* } */
+.banner5 .banner5__wrapper ul li a {
+  color: #ffa700;
+  font-size: 2.5rem;
+}
+.banner5 .banner5__wrapper ul {
+  display: flex;
+  gap: 1.25rem;
+}
+
+.banner5 .banner5__wrapper ul li i {
+  color: #ffa700;
+  font-size: 2.5rem;
+  align-items: center;
+}
+/* .banner5 .banner5__wrapper ul {
+  display: flex;
+  gap: 1.25rem; */
+.banner5 .arrow{
+  color: #ffa700;
+  font-size: 3.5rem;
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+}
+
+  .banner5 .arrow__wrapper ul {
+    gap: 1.25rem;
+  align-items: center;
+
+  }
+  .banner5 .banner5__wrapper ul li a {
+    color: #ffa700;
+    align-items: center;
+    font-size: 2rem;
+  }
+  .banner5 .banner5__social {
+    justify-items: center;
+  }
+
+
+@media screen and (max-width:500px){
+  .banner5{
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+  .banner5 .banner5__wrapper{
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .banner5 .banner5__text {
+    order: 2;
+  }
+  .banner5 .banner5__text h1{
+    font-size: 3rem;
+    text-align: center;
+  }
+  .banner5 .banner5__text a{
+    display: flex;
+    width: fit-content;
+    margin: 0 auto;
+  }
+  .banner5 img{
+    width: 20rem;
+    margin: 0 25%;
+   /* margin:0 auto; */
+  }
+  .banner5 .banner5__text .p1{
+    text-align: center;
+  }
+  
+    .banner5 .banner5__wrapper ul li a {
+      color: #ffa700;
+      font-size: 2rem;
+    }
+    .banner5 .arrow{
+      color: #ffa700;
+      font-size: 3.5rem;
+      display: flex;
+      justify-content: center;
+      justify-items: center;
+    }
+  }
+  /* project
+.project{
+  background: #2b2b2b;
+  padding-top: 4rem;
+  padding-bottom: 10rem;
+}
+  .project .project__wrapper{
+    display:grid;
+  grid-template-columns:1fr 1fr 1fr;
+  gap:5rem;}
+
+.project .project__title h2{
+  color:#ffa700;
+  font-size:5rem;
+  font-weight:800;
+  height: auto;
+}
+.project .project__title p{
+  color:#ffffff;
+  font-size:2.5rem;
+}
+.project .project__title{
+  margin-bottom:8rem;
+}
+.project .project__card{
+  background:#ffffff;
+  border-radius:2rem;
+  margin-bottom: auto;
+}
+.project .project__text{
+  padding:1.5rem 2rem;
+}
+.project .project__text h4{
+  color:#ffa700;
+  font-weight:600;
+}
+.project .project__text p{
+  margin-top:2rem;
+}
+.project .project__text a{
+  color:#ffa700;
+}
+  @media screen and (max-width:500px){
+    .project .project__title {
+      text-align: center;
+    }
+    .project .project__title h2{
+      font-size: 4rem;
+    }
+    .project .project__wrapper{
+      display: grid;
+      grid-template-columns: 1fr;
+    }
+    .project .project__card{
+      margin: 0 2rem;
+    }
+    .project .project__card img{
+      width: 100%;
+  
+    }} */
+
+
+
+/* mobile view about  */
+@media screen and (max-width:500px){
+.aboutme{
+      padding-right: 2rem;
+      padding-right:2rem;
+    }
+    .aboutme .aboutme__wrapper{
+  display:grid;
+  grid-template-columns:  1fr;
+    }
+    .aboutme .aboutme__text{
+      order:2;
+    }
+    .aboutme .aboutme__text h3{
+      font-size:rem;
+      text-align:center;
+    }
+    .aboutme .aboutme__text a{
+      display:flex;
+      width: fit-content;
+      margin:0%auto;
+    }
+    .aboutmeimg{
+      width:20rem;
+      margin:0 auto;
+    }
+  }
+
+
+/* REPEATABLE PATTERNS */
+.btn{
+  display:inline-block;
+  padding:1.5rem 2rem;
+  border-radius:5rem;
+  color:#ffffff; 
+}
+.btn:hover{
+  scale:1.1;
+}
+.btn.bg--primary{
+background:#ffa700;
+}
+.btn.bg--secondary{
+background:#2b2b2b;
+}
 
 
 
